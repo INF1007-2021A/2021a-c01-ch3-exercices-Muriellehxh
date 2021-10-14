@@ -10,7 +10,7 @@ test_to_radians (__main__.TestExercice) ... ok
 FAIL: test_to_degrees (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/Users/muriellemardenli/Desktop/poly/INF1007/2021a-c01-ch3-exercices-Muriellehxh/test_exercice.py", line 83, in test_to_degrees
+  File "test_exercice.py", line 83, in test_to_degrees
     self.assertListEqual(
 AssertionError: Lists differ: [(0.0, 0.0, 0.0), (0.0, 0.0, 0.0), (0.0, 0.[20 chars]0.0)] != [(79.0980174562859, 5.881047377154118, 29.6[197 chars]998)]
 
@@ -25,6 +25,6 @@ First differing element 0:
 +  (213.95544569810457, -2.673258113725865, 23.057550624127998)] : Mauvais calcul de radians -> degres
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.002s
+Ran 7 tests in 0.001s
 
 FAILED (failures=1)
